@@ -78,7 +78,7 @@ void setup() {
 #else // Arduino, chipKIT, Teensy specific
     myLED = 13;
 #endif
-    pinMode(8, OUTPUT);
+    pinMode(9, OUTPUT);
     pinMode(myLED, OUTPUT);
 }
 
